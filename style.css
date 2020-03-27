@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#game {
+    width: 320px;
+}
+
+.wall, .open, .rupee {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    vertical-align: top;
+  }
+  
+.wall {
+    background-color: #00f;
+}
+
+.open {
+    background-color: #000;
+}
+
+#hero {
+    height: 28px;
+    width: 28px;
+    margin: 2px;
+    border-radius: 50%;
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    background-image: url("assets/zelda.png");
+    background-size: cover;
+    /* background-position-y: 40px; */
+}
+
+.rupee {
+    background-image: url("assets/rupee.png");
+    background-size: cover;
+}
